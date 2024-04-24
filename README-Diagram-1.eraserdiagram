@@ -1,0 +1,97 @@
+entity-relationship-diagram
+
+customer [icon: user, color: blue] {
+    c_id number pk
+    c_name VARCHAR2(30)
+    c_phoneNum number 
+    c_email VARCHAR2(10)
+    c_dob date
+    c_age number 
+}
+
+Completes [icon: azure-compliance-center] {
+  t_id number pk
+  t_date date
+  amount number
+  fees number
+  c_id number FK
+}
+
+Transaction [icon: money, color: blue] {
+  t_id number pk
+  fees number 
+  amount number
+  t_date date
+}
+
+Uses [icon: azure-process-explorer] {
+  m_id number pk
+  m_email VARCHAR2(20)
+  m_name VARCHAR2(30)
+  bus_name VARCHAR2(30)
+  reg_date date
+  t_id number fk
+}
+
+Merchant [icon: d365-sales, color: blue ] {
+  m_id number pk
+  m_name VARCHAR2(30) 
+  m_email VARCHAR2(20)
+  bus_name VARCHAR2(30)
+  reg_date date
+}
+
+Admin [icon: azure-ad-roles-and-administrators, color: blue] {
+  a_id number pk
+  a_name VARCHAR2(30)
+  a_email VARCHAR2(20)
+}
+
+Creates [icon: azure-process-explorer] {
+  a_id number fk
+  p_id number pk
+}
+
+Payment_methods [icon: aws-api-gateway, color: blue] {
+  p_id number pk
+  p_name VARCHAR2(30)
+}
+
+Operates [icon: d365-finance-operations]{
+  a_id number pk
+  p_id number ck
+  a_name VARCHAR2(30)
+  a_email VARCHAR2(20)
+  p_name VARCHAR2(30)
+  t_id number FK
+}
+
+request_rollback [icon: azure-restore-points-collections] {
+  m_id number pk
+  m_name VARCHAR2(30)
+  m_email VARCHAR2(20)
+  c_id number FK
+}
+
+ONLINE [color: green]
+OFFLINE [color: green]
+
+customer - Completes.c_id
+Completes < Transaction
+Transaction.t_id  - Operates.t_id
+Operates < Admin
+Admin.a_id  < Creates.a_id
+Creates.p_id < Payment_methods.p_id
+Transaction.t_id  - Uses.t_id
+Uses < Merchant 
+Merchant <> ONLINE 
+Merchant <> OFFLINE
+customer.c_id < request_rollback.c_id
+
+
+title Diagram
+typeface clean
+styleMode watercolor
+
+
+ 
