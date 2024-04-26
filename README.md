@@ -1,8 +1,8 @@
 <p><a target="_blank" href="https://app.eraser.io/workspace/ayRUHZc5SNHfxrXE15oN" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
-![ER Diagram](undefined "ER Diagram")
+![ER Diagram](/.eraser/ayRUHZc5SNHfxrXE15oN___Sw74nJbVClclCggBhR055he503h2___---figure---NvQcnZhIiWQQnKuAxnKcU---figure---LE_m70L-GTY6KwosprIAgA.png "ER Diagram")
 
-![Table Diagram](/.eraser/ayRUHZc5SNHfxrXE15oN___Sw74nJbVClclCggBhR055he503h2___---figure---Tayq-b-n0E1l0m5ui_jJG---figure---ABpAO1qJJQUIxW8xdInZJg.png "Table Diagram")
+![Table Diagram](/.eraser/ayRUHZc5SNHfxrXE15oN___Sw74nJbVClclCggBhR055he503h2___---figure---ij_ASZEiv4Zns4CQYTWAx---figure---ABpAO1qJJQUIxW8xdInZJg.png "Table Diagram")
 
 > **Normalization**
 
