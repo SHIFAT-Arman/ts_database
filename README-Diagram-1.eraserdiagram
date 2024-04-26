@@ -87,6 +87,7 @@ Uses < Merchant
 Merchant <> ONLINE 
 Merchant <> OFFLINE
 customer.c_id < request_rollback.c_id
+request_rollback > Merchant
 
 
 title Diagram

@@ -1,8 +1,8 @@
 <p><a target="_blank" href="https://app.eraser.io/workspace/ayRUHZc5SNHfxrXE15oN" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
-![ER Diagram](/.eraser/ayRUHZc5SNHfxrXE15oN___Sw74nJbVClclCggBhR055he503h2___---figure---672uSjmaFU-QsR3u39OcK---figure---LE_m70L-GTY6KwosprIAgA.png "ER Diagram")
+![ER Diagram](undefined "ER Diagram")
 
-![Table Diagram](/.eraser/ayRUHZc5SNHfxrXE15oN___Sw74nJbVClclCggBhR055he503h2___---figure---kqKUPe8WVMB1yuRI0apuY---figure---ABpAO1qJJQUIxW8xdInZJg.png "Table Diagram")
+![Table Diagram](/.eraser/ayRUHZc5SNHfxrXE15oN___Sw74nJbVClclCggBhR055he503h2___---figure---Tayq-b-n0E1l0m5ui_jJG---figure---ABpAO1qJJQUIxW8xdInZJg.png "Table Diagram")
 
 > **Normalization**
 
@@ -63,7 +63,7 @@
 <!-- eraser-additional-content -->
 ## Diagrams
 <!-- eraser-additional-files -->
-<a href="/README-Diagram-1.eraserdiagram" data-element-id="OJ6IE2Q4xxqtEt-5iZ5Re"><img src="/.eraser/ayRUHZc5SNHfxrXE15oN___Sw74nJbVClclCggBhR055he503h2___---diagram----f92d1dd5c577e6377d10ec9cdce006aa-Diagram.png" alt="" data-element-id="OJ6IE2Q4xxqtEt-5iZ5Re" /></a>
+<a href="/README-Diagram-1.eraserdiagram" data-element-id="OJ6IE2Q4xxqtEt-5iZ5Re"><img src="/.eraser/ayRUHZc5SNHfxrXE15oN___Sw74nJbVClclCggBhR055he503h2___---diagram----01b451a080b63bdcb4e4ee5326e309aa-Diagram.png" alt="" data-element-id="OJ6IE2Q4xxqtEt-5iZ5Re" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/ayRUHZc5SNHfxrXE15oN --->
