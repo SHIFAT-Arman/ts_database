@@ -1,6 +1,5 @@
 import cx_Oracle
-from flask import request 
-cx_Oracle.init_oracle_client(lib_dir=r"E:\instantclient-basic-windows.x64-21.13.0.0.0dbru\instantclient_21_13")
+
 
 # Sample data as a list of tuples
 customer_data = [
@@ -50,8 +49,8 @@ request_rollback_data = [
 
 # Connection details (replace with your actual credentials)
 username = "PG"
-password = "people"
-dsn = "localhost:1521/XE"
+password = "People"
+dsn = "localhost:1521/XEPDB1"
 
 connection = cx_Oracle.connect(username, password, dsn)
 cursor = connection.cursor()
@@ -63,7 +62,7 @@ insert_query_Customer = """
 INSERT INTO CUSTOMER (C_ID, C_NAME, C_EMAIL, C_PHONENUMBER, C_DOB, C_AGE)
 VALUES (:1, :2, :3, :4, TO_DATE(:5, 'YYYY-MM-DD'), :6)
 """
-# cursor.executemany(insert_query_Customer, customer_data)
+cursor.executemany(insert_query_Customer, customer_data)
 
 #insert for completes
 insert_query_Completes = """
